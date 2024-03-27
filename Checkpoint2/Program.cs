@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Checkpoint2
 {
     public class Program
-    {
+    { 
         static void Main(string[] args)
         {
             List<Product> products = new List<Product>();
