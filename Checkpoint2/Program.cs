@@ -15,7 +15,7 @@ namespace Checkpoint2
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("To enter a new product - follow the steps. To present the list - enter 'P'. To quit - enter 'Q'");
                 string input = Console.ReadLine().Trim().ToLower();
-
+                 
                 if (input == "q")
                     break;
 
