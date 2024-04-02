@@ -17,11 +17,10 @@ namespace Checkpoint2.models
         {
             CategoryName = categoryName;
         }
-         
+
         /// <summary>
         /// Get and set method for CategoryName
         /// </summary>
         public string CategoryName { get; set; }
     }
 }
- 

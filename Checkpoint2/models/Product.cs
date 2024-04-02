@@ -57,7 +57,7 @@ namespace Checkpoint2.models
             List<Product> sortedList = productList.OrderBy(product => product.Price).ToList();
             return sortedList;
         }
-         
+
         /// <summary>
         /// Search a product by name with Linq
         /// </summary>
@@ -72,4 +72,3 @@ namespace Checkpoint2.models
 
     }
 }
- 
